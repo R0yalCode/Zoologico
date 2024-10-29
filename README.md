@@ -1,6 +1,6 @@
 # Zoologico
 
-![Screenshot 2024-10-29 054631](https://github.com/user-attachments/assets/db1ac0e5-ce32-481b-80b2-0cbf6b8aaa5c)
+![Zoologico_Diagram](https://github.com/user-attachments/assets/1ebd485c-bdb9-4eab-aa8a-171257f0bd9a)
 > Diagrama de clases-UML del zoologico
 
 ## Sistema de Gestión de un Zoológico
