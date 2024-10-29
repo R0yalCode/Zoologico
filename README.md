@@ -41,16 +41,4 @@ Clase que se encarga de manejar los tickets que los clientes adquieren para visi
 - **Enumeraciones (Especie y Cuerpo)**: 
 Sirven para clasificar a los animales según su dieta (CARNIVORO, HERVIVORO, OMNIVORO) y la presencia o ausencia de columna vertebral (VERTEBRADO, INVERTEBRADO).
 
-# Relaciones utilizadas
-En el siguinte Diagrama UML se uso algunas relaciones y las siguientes son:
-- **Agregacion**: 
-El diagrama usa agregación entre `Zoologico` y `Animal`, así como `Zoologico` y `Jaula`, indicando que estos objetos pueden existir independientemente del zoológico que los contiene.
 
-- **Asociación**: 
-El diagrama muestra asociaciones como `Boleto`-`Cliente` y `Empleado`-`Zoologico`, reflejando relaciones de trabajo y transacción, donde las clases pueden existir de manera independiente.
-
-- **Herencia**: 
-El diagrama utiliza herencia para organizar clases generales y específicas. `Cliente` hereda de `Persona`, mientras que `Veterinario`, `Cuidador`, `PersonalLimpieza`, `PersonalAdministrativo` y `Guia` heredan de `Empleado`. Esto permite que las subclases compartan atributos y métodos comunes, manteniendo una estructura organizada y evitando duplicación de código.
-
-- **Dependencia**: 
-Las dependencias en un diagrama de clases indican que una clase utiliza otra para funcionalidades específicas sin poseerla. Ejemplos incluyen `Veterinario` que trata `Animal` y `Boleto` que asigna `Cliente`.
