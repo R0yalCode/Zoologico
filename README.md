@@ -43,3 +43,5 @@ Sirven para clasificar a los animales según su dieta (CARNIVORO, HERVIVORO, OMN
 
 # Relaciones utilizadas
 En el siguinte Diagrama UML se uso algunas relaciones y las siguiientes son:
+**Agregacion**:
+
