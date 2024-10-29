@@ -1,11 +1,13 @@
 # Zoologico
-## Diagrama de clases del zoologico
-![Screenshot 2024-10-28 210140](https://github.com/user-attachments/assets/4659dfcf-e165-467d-a76d-e7de80309f26)
-## Sistema de Gestión de un Zoológico
+
+![Screenshot 2024-10-29 054631](https://github.com/user-attachments/assets/db1ac0e5-ce32-481b-80b2-0cbf6b8aaa5c)
+> Diagrama de clases-UML del zoologico
+
+# Sistema de Gestión de un Zoológico
 Este trabajo se basa principalmente en un sistema de zoológico representado mediante un diagrama de clases-UML en el cual se va a representar diferentes partes que tiene como estructura un zoológico, es decir los seres vivos, la administración del zoológico, la gestion de clientes y diversas clasificaciones de los animales.
-## Objetivo Principal
+# Objetivo Principal
 Definir las entidades principales de un zoológico, sus relaciones y los métodos que permiten gestionar la información de los animales, los empleados, los clientes, las jaulas y otros elementos relevantes.
-## Caracteristicas del Diagrama de Clases UML - Zoológico
+# Caracteristicas del Diagrama de Clases UML - Zoológico
 - **Persona** :
 De esta Clase Abstracta surgen sub clases que forman parte de un zoológico como los empleados y seres vivos, ademas permite gestionar datos comunes de las personas.
 - **SerVivo** : 
