@@ -54,7 +54,3 @@ El diagrama utiliza herencia para organizar clases generales y específicas. `Cl
 
 - **Dependencia**: 
 Las dependencias en un diagrama de clases indican que una clase utiliza otra para funcionalidades específicas sin poseerla. Ejemplos incluyen `Veterinario` que trata `Animal` y `Boleto` que asigna `Cliente`.
-
-
-
-
