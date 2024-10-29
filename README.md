@@ -33,13 +33,14 @@ Subclase de Empleado encargada de mantener en buenas condiciones las instalacion
 - **Guia**: 
 Subclase de Empleado que se encarga de proporcionar información a los visitantes y guiarlos en sus recorridos por el zoológico.
 
-- **Cliente**:
+- **Cliente**:              
 Hereda de Persona y representa a los visitantes del zoológico que adquieren boletos para ingresar. Está relacionado con la clase Boleto, que gestiona la compra y la información del acceso de los clientes.
 
 - **Boleto**: 
 Clase que se encarga de manejar los tickets que los clientes adquieren para visitar el zoológico. Define atributos como el valor del boleto, la cantidad, la fecha de la visita, entre otros.
 - **Enumeraciones (Especie y Cuerpo)**: 
 Sirven para clasificar a los animales según su dieta (CARNIVORO, HERVIVORO, OMNIVORO) y la presencia o ausencia de columna vertebral (VERTEBRADO, INVERTEBRADO).
+
 
 # Relaciones utilizadas
 En el siguinte Diagrama UML se uso algunas relaciones y las siguiientes son:
