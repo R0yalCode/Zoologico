@@ -43,3 +43,10 @@ Clase que se encarga de manejar los tickets que los clientes adquieren para visi
 - **Enumeraciones (Especie y Cuerpo)**: 
 Sirven para clasificar a los animales según su dieta (CARNIVORO, HERVIVORO, OMNIVORO) y la presencia o ausencia de columna vertebral (VERTEBRADO, INVERTEBRADO).
 
+# Autores: 
+## [Israel Rodriguez](https://github.com/IsraelSRodriguezT)
+## [Carlos Granda](https://github.com/Carlosjosu)
+## [Royel Jima](https://github.com/R0yalCode)
+## [Daniel Pardo](https://github.com/Dan1el17)
+## [Juan Calopino](https://github.com/JuaaanCalopino)
+
