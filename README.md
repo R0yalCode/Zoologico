@@ -19,6 +19,9 @@ Representa los recintos donde se encuentran los animales, cada jaula tiene atrib
 ### Cuidador:
 Subclase de Empleado encargada de la alimentación, cuidado y limpieza de los recintos de los animales. Su principal responsabilidad es el bienestar de los animales en términos de alimentación y aseo.
 
+### Veterinario:
+Es una subclase de Empleado que se especializa en la atención médica de los animales
+
 ### PersonalAdministrativo:
 Subclase de Empleado que abarca a aquellos empleados que desempeñan tareas administrativas y de gestión dentro del zoológico, como la organización y la administración de recursos.
 
