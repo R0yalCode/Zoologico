@@ -12,3 +12,7 @@ De esta Clase Abstracta surgen sub clases que forman parte de un zoológico como
 Es una clase de la cual heredan tanto animal como persona ya que ambos tienen vida, define atributos esenciales para cualquier ser vivo, como el nombre y la fecha de nacimiento, lo que permite calcular su edad.
 ### Empleado : 
 Es una clase que hereda de Persona y representa a los trabajadores del zoológico, se subdivide en diferentes sub clases que cuentan cómo personal especializado de un zoológico como por ejemplo : Veterinario, Cuidador, Personal Administrativo, Guia y Personal de Limpieza.
+### Animal :
+Esta clase hereda de SerVivo y representa a los animales del zoológico. Incluye atributos específicos como especie, género, familia, peso y tipo de cuerpo. Además, se relaciona con Jaula para definir dónde habitan los animales.
+### Jaula : 
+Representa los recintos donde se encuentran los animales, cada jaula tiene atributos como tamaño, capacidad y un número identificador único el cual se considera de tipo cadena ya que la mayoria de jaulas suelen tener caracteres y numeros, está relacionada con la clase Animal
