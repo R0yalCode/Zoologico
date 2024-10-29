@@ -8,6 +8,8 @@ Este trabajo se basa principalmente en un sistema de zoológico representado med
 ## Objetivo Principal
 Definir las entidades principales de un zoológico, sus relaciones y los métodos que permiten gestionar la información de los animales, los empleados, los clientes, las jaulas y otros elementos relevantes.
 ## Caracteristicas del Diagrama de Clases UML - Zoológico
+- **Zoológico** :
+Esta es la clase principal que abarca diferentes sub clases muy importantes como las personas , animales y seres vivos.
 - **Persona** :
 De esta Clase Abstracta surgen sub clases que forman parte de un zoológico como los empleados y seres vivos, ademas permite gestionar datos comunes de las personas.
 - **SerVivo** : 
