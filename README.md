@@ -46,6 +46,8 @@ En el siguinte Diagrama UML se uso algunas relaciones y las siguiientes son:
 - **Agregacion**: 
 El diagrama usa agregación entre `Zoologico` y `Animal`, así como `Zoologico` y `Jaula`, indicando que estos objetos pueden existir independientemente del zoológico que los contiene.
 
+
+
 - **Asociación**: 
 El diagrama muestra asociaciones como `Boleto`-`Cliente` y `Empleado`-`Zoologico`, reflejando relaciones de trabajo y transacción, donde las clases pueden existir de manera independiente.
 
