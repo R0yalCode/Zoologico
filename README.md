@@ -45,7 +45,7 @@ Sirven para clasificar a los animales según su dieta (CARNIVORO, HERVIVORO, OMN
 En el siguinte Diagrama UML se uso algunas relaciones y las siguiientes son:
 - **Agregacion**: 
 El diagrama usa agregación entre `Zoologico` y `Animal`, así como `Zoologico` y `Jaula`, indicando que estos objetos pueden existir independientemente del zoológico que los contiene.
-
+![Captura de pantalla 2024-10-29 103529](https://github.com/user-attachments/assets/80d41396-0f69-4095-8f5b-c702aa620db3)
 
 
 - **Asociación**: 
