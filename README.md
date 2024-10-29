@@ -42,3 +42,10 @@ Hereda de Persona y representa a los visitantes del zoológico que adquieren bol
 Clase que se encarga de manejar los tickets que los clientes adquieren para visitar el zoológico. Define atributos como el valor del boleto, la cantidad, la fecha de la visita, entre otros.
 - **Enumeraciones (Especie y Cuerpo)**: 
 Sirven para clasificar a los animales según su dieta (CARNIVORO, HERVIVORO, OMNIVORO) y la presencia o ausencia de columna vertebral (VERTEBRADO, INVERTEBRADO).
+
+# Autores: 
+## [Israel Rodriguez](https://github.com/IsraelSRodriguezT)
+## [Carlos Granda](https://github.com/Carlosjosu)
+## [Royel Jima](https://github.com/R0yalCode)
+## [Daniel Pardo](https://github.com/Dan1el17)
+## [Juan Calopino](https://github.com/JuaaanCalopino)
