@@ -36,3 +36,5 @@ Hereda de Persona y representa a los visitantes del zoológico que adquieren bol
 
 ### Boleto: 
 Clase que se encarga de manejar los tickets que los clientes adquieren para visitar el zoológico. Define atributos como el valor del boleto, la cantidad, la fecha de la visita, entre otros.
+### Enumeraciones (Especie y Cuerpo): 
+Sirven para clasificar a los animales según su dieta (CARNIVORO, HERVIVORO, OMNIVORO) y la presencia o ausencia de columna vertebral (VERTEBRADO, INVERTEBRADO).
