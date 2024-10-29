@@ -15,4 +15,21 @@ Es una clase que hereda de Persona y representa a los trabajadores del zoológic
 ### Animal :
 Esta clase hereda de SerVivo y representa a los animales del zoológico. Incluye atributos específicos como especie, género, familia, peso y tipo de cuerpo. Además, se relaciona con Jaula para definir dónde habitan los animales.
 ### Jaula : 
-Representa los recintos donde se encuentran los animales, cada jaula tiene atributos como tamaño, capacidad y un número identificador único el cual se considera de tipo cadena ya que la mayoria de jaulas suelen tener caracteres y numeros, está relacionada con la clase Animal
+Representa los recintos donde se encuentran los animales, cada jaula tiene atributos como tamaño, capacidad y un número identificador único el cual se considera de tipo cadena ya que la mayoria de jaulas suelen tener caracteres y numeros, está relacionada con la clase Animal.
+### Cuidador:
+Subclase de Empleado encargada de la alimentación, cuidado y limpieza de los recintos de los animales. Su principal responsabilidad es el bienestar de los animales en términos de alimentación y aseo.
+
+### PersonalAdministrativo:
+Subclase de Empleado que abarca a aquellos empleados que desempeñan tareas administrativas y de gestión dentro del zoológico, como la organización y la administración de recursos.
+
+### PersonalLimpieza: 
+Subclase de Empleado encargada de mantener en buenas condiciones las instalaciones del zoológico mediante tareas de limpieza.
+
+### Guia: 
+Subclase de Empleado que se encarga de proporcionar información a los visitantes y guiarlos en sus recorridos por el zoológico.
+
+### Cliente:
+Hereda de Persona y representa a los visitantes del zoológico que adquieren boletos para ingresar. Está relacionado con la clase Boleto, que gestiona la compra y la información del acceso de los clientes.
+
+### Boleto: 
+Clase que se encarga de manejar los tickets que los clientes adquieren para visitar el zoológico. Define atributos como el valor del boleto, la cantidad, la fecha de la visita, entre otros.
