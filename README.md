@@ -42,3 +42,4 @@ Clase que se encarga de manejar los tickets que los clientes adquieren para visi
 Sirven para clasificar a los animales según su dieta (CARNIVORO, HERVIVORO, OMNIVORO) y la presencia o ausencia de columna vertebral (VERTEBRADO, INVERTEBRADO).
 
 # Relaciones utilizadas
+En el siguinte Diagrama UML se uso algunas relaciones y las siguiientes son:
