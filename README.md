@@ -50,7 +50,7 @@ El diagrama usa agregación entre `Zoologico` y `Animal`, así como `Zoologico` 
 El diagrama muestra asociaciones como `Boleto`-`Cliente` y `Empleado`-`Zoologico`, reflejando relaciones de trabajo y transacción, donde las clases pueden existir de manera independiente.
 
 - **Herencia**: 
-El diagrama muestra asociaciones como `Boleto`-`Cliente` y `Empleado`-`Zoologico`, reflejando relaciones de trabajo y transacción, donde las clases pueden existir de manera independiente.
+El diagrama utiliza herencia para organizar clases generales y específicas. `Cliente` hereda de `Persona`, mientras que `Veterinario`, `Cuidador`, `PersonalLimpieza`, `PersonalAdministrativo` y `Guia` heredan de `Empleado`. Esto permite que las subclases compartan atributos y métodos comunes, manteniendo una estructura organizada y evitando duplicación de código.
 
 
 
