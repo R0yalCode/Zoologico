@@ -53,5 +53,5 @@ Definir las entidades principales de un zoológico, sus relaciones y los método
 ## [Israel Rodriguez](https://github.com/IsraelSRodriguezT)
 ## [Carlos Granda](https://github.com/Carlosjosu)
 ## [Royel Jima](https://github.com/R0yalCode)
-## [Daniel Pardo](https://github.com/Dan1el17)
+## [Steeven Pardo](https://github.com/Dan1el17)
 ## [Juan Calopino](https://github.com/JuaaanCalopino)
