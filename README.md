@@ -4,7 +4,7 @@
 
 > Diagrama de clases-UML del zoologico
 
-- **Integrantes**:
+- **Integrantes** :
 - Israel Rodríguez
 - Royel Jima
 - Juan Calopino
