@@ -94,4 +94,3 @@ Definir las entidades principales de un zoológico, sus relaciones y los método
 - **Enumeraciones (Especie y Cuerpo)**:
   Sirven para clasificar a los animales según su dieta (CARNIVORO, HERVIVORO, OMNIVORO) y la presencia o ausencia de columna vertebral (VERTEBRADO, INVERTEBRADO).
 
-> > > > > > > origin/main
