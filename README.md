@@ -32,7 +32,50 @@ Definir las entidades principales de un zoológico, sus relaciones y los método
 Descarga e instala Visual Studio Code desde su sitio web oficial. Para ir al sitio oficial ingresa [aqui](https://code.visualstudio.com/).
 **Java Extension Pack**: Instala esta extensión para facilitar el desarrollo en Java.
 
-# Caracteristicas del Diagrama de Clases UML - Zoológico
+# Clases del Sistema
+A continuación, se presenta la lista de clases que forman parte del sistema, junto con una breve descripción de su función:
+
+`Animal.class` Representa a los animales que habitan en el zoológico, incluyendo atributos como especie, género, y características específicas del comportamiento y la dieta.
+
+`Boleto.class `Gestiona la información relacionada con los tickets de entrada al zoológico, incluyendo detalles como el precio, la fecha de compra y el tipo de entrada.
+
+`Cliente.class` Hereda de la clase Persona y representa a los visitantes del zoológico, manejando datos sobre su historial de visitas y boletos adquiridos.
+
+`Compra.class `Se encarga de la lógica de las transacciones relacionadas con la compra de boletos y otros servicios, registrando detalles de la compra.
+
+`Cuidador.class `Subclase de Empleado, responsable del cuidado diario de los animales, asegurando su bienestar a través de la alimentación y el mantenimiento de sus recintos.
+
+`Direccion.class` Maneja la información de direcciones asociadas a las personas y entidades dentro del sistema, permitiendo gestionar la ubicación de los empleados y clientes.
+
+`Empleado.class` Clase base que representa a todos los trabajadores del zoológico. Se subdivide en diferentes tipos de empleados, como cuidadores y veterinarios.
+
+`Estado.class` Define los estados o condiciones que pueden aplicarse a los animales o empleados, permitiendo gestionar su estatus dentro del sistema.
+
+`Guia.class` Subclase de Empleado, encargada de proporcionar información y orientación a los visitantes durante su recorrido por el zoológico.
+
+`Jaula.class `Representa los recintos físicos donde se alojan los animales, incluyendo atributos como tamaño, capacidad y un identificador único para cada jaula.
+
+`Main.class` Clase principal del programa, que contiene el método main y gestiona la ejecución del sistema.
+
+`Persona.class` Clase abstracta que representa a las personas en el sistema, gestionando datos comunes como nombre, edad y fecha de nacimiento.
+
+`PersonalAdministrativo.class` Subclase de Empleado que se encarga de las tareas administrativas y de gestión del zoológico.
+
+`PersonalLimpieza.class` Subclase de Empleado responsable de mantener las instalaciones del zoológico limpias y en buen estado.
+
+`SerVivo.class` Clase base que representa a todos los seres vivos, tanto animales como personas, definiendo atributos esenciales como nombre y fecha de nacimiento.
+
+`TipoCuerpo.class` Enum que clasifica a los animales según su tipo de cuerpo, proporcionando categorías como vertebrados e invertebrados.
+
+`TipoDieta.class` Enum que clasifica a los animales según su dieta, permitiendo categorizar entre carnívoros, herbívoros y omnívoros.
+
+`Veterinario.class `Subclase de Empleado especializada en la atención médica de los animales, responsable de su salud y bienestar.
+
+`Zona.class` Representa las distintas áreas del zoológico, agrupando las jaulas y recintos en diferentes secciones temáticas o geográficas.
+
+`Zoologico.class` Clase principal que coordina todas las operaciones y entidades dentro del zoológico, actuando como un punto de acceso central para la gestión del sistema.
+
+## Caracteristicas del Diagrama de Clases UML - Zoológico
 
 - **Zoológico** :
   Se podra decir que esta seria la clase principal en la cual se implementan varias clases relacionadas con un zoológico.
