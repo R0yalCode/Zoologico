@@ -1,6 +1,6 @@
 # Zoologico
 
-![image](https://github.com/user-attachments/assets/53c077ea-16c6-4b87-b36c-955dfe019292)
+![image](https://github.com/user-attachments/assets/baaf0ddc-b2d6-4f7d-a1d5-2242d1b748c1)
 
 > Diagrama de clases-UML del zoologico
 
@@ -13,7 +13,26 @@ Este trabajo se basa principalmente en un sistema de zoológico representado med
 
 Definir las entidades principales de un zoológico, sus relaciones y los métodos que permiten gestionar la información de los animales, los empleados, los clientes, las jaulas y otros elementos relevantes.
 
-## Caracteristicas del Diagrama de Clases UML - Zoológico
+# Requisitos
+#### Requisitos de Software:
+###### Sistema Operativo
+- **Compatible con**: Windows, macOS o Linux.
+
+###### JDK
+- **Versión**: JDK 8 o superior. Asegúrate de tenerlo instalado para compilar y ejecutar el proyecto. Puedes descargarlo desde [aqui](https://www.oracle.com/java/technologies/downloads/#java8).
+
+###### IDE (Entorno de Desarrollo Integrado)
+- **IntelliJ IDEA**: Un potente IDE para Java. Puedes descargarlo desde [aqui](https://www.jetbrains.com/idea/download/?section=windows).
+- **Eclipse**: Otro popular IDE para desarrollo en Java. Descárgalo desde [aqui](https://www.eclipse.org/downloads/packages/installer).
+
+###### Compilador
+- **Java Compiler**: Asegúrate de que el compilador de Java esté configurado correctamente en tu entorno de desarrollo.
+
+- **Visual Studio Code (opcional)**
+Descarga e instala Visual Studio Code desde su sitio web oficial. Para ir al sitio oficial ingresa [aqui](https://code.visualstudio.com/).
+**Java Extension Pack**: Instala esta extensión para facilitar el desarrollo en Java.
+
+# Caracteristicas del Diagrama de Clases UML - Zoológico
 
 - **Zoológico** :
   Se podra decir que esta seria la clase principal en la cual se implementan varias clases relacionadas con un zoológico.
@@ -54,6 +73,7 @@ Definir las entidades principales de un zoológico, sus relaciones y los método
 ##### - Clona el repositorio: 
 
     git clone https://github.com/R0yalCode/zoologico.git
+
 ###### Espera a que termine el proceso
 Una vez que se complete la clonación, verás un mensaje indicando que el repositorio se ha clonado correctamente.
 
