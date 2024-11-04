@@ -48,6 +48,26 @@ Definir las entidades principales de un zoológico, sus relaciones y los método
   Clase que se encarga de manejar los tickets que los clientes adquieren para visitar el zoológico. Define atributos como el valor del boleto, la cantidad, la fecha de la visita, entre otros.
 - **Enumeraciones (Especie y Cuerpo)**:
   Sirven para clasificar a los animales según su dieta (CARNIVORO, HERVIVORO, OMNIVORO) y la presencia o ausencia de columna vertebral (VERTEBRADO, INVERTEBRADO).
+  
+# Cómo Ejecutar el Proyecto
+
+##### - Clona el repositorio: 
+
+    git clone https://github.com/R0yalCode/zoologico.git
+###### Espera a que termine el proceso
+Una vez que se complete la clonación, verás un mensaje indicando que el repositorio se ha clonado correctamente.
+
+##### - Navega al directorio del proyecto:
+    cd zoologico
+
+##### - Compila el proyecto:
+    javac *.class
+
+##### - Ejecuta la aplicación:
+    java Main
+
+
+
 
 # Autores: 
 ## [Israel Rodriguez](https://github.com/IsraelSRodriguezT)
