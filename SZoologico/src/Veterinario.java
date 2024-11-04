@@ -18,22 +18,34 @@ public class Veterinario extends Empleado{
         return especialidad;
     }
     //Metodos:
-
-    public void realizarDiagnostico(Animal... animales) {
-        for (Animal animal : animales) {
-            System.out.println("[ "+getNombre() + " revisa y examina al " + animal.getNombre()+" ]");
-            Estado estadoActual = animal.getEstado();
-
-            if (estadoActual == Estado.ENFERMO || estadoActual == Estado.HERIDO || estadoActual == Estado.ESTRESADO) {
-                System.out.println("-> El animal está en mal estado (" + estadoActual + "). Iniciando tratamiento...");
-                realizarTratamiento(animal);
+    public void realizarDiagnostico(Animal... animalesList) {
+        for (Animal animal : animalesList) {
+            if (verificarEspecialidad(animal)) {
+                System.out.println("[ " + getNombre() + " revisa y examina al " + animal.getNombre() + " ]");
+                Estado estadoActual = animal.getEstado();
+                animales.add(animal);
+                if (estadoActual == Estado.ENFERMO || estadoActual == Estado.HERIDO || estadoActual == Estado.ESTRESADO) {
+                    System.out.println("-> El animal está en mal estado (" + estadoActual + "). Iniciando tratamiento...");
+                    animal.indicarDiagnostico(estadoActual, this);
+                    realizarTratamiento(animal);
+                } else {
+                    System.out.println("-> El animal está en buen estado (" + estadoActual + "). No se requiere tratamiento");
+                }
             } else {
-                System.out.println("-> El animal está en buen estado (" + estadoActual + "). No se requiere tratamiento");
+                System.out.println(" !! " + getNombre() + " no puede examinar a " + animal.getNombre() + " debido a su especialidad !!");
             }
         }
     }
-    public void realizarTratamiento(Animal animal){
+    private void realizarTratamiento(Animal animal){
         animal.setEstado(Estado.NORMAL); // Cambiar el estado a NORMAL después del tratamiento
         System.out.println("--> El " + animal.getNombre() + " ha sido tratado y ahora se encuentra bien (NORMAL)");
+    }
+    private boolean verificarEspecialidad(Animal animal) {
+        if(animal.getTipoCuerpo() == TipoCuerpo.VERTEBRADO && especialidad.equalsIgnoreCase("Vertebrado")) {
+            return true;
+        } else if(animal.getTipoCuerpo() == TipoCuerpo.INVERTEBRADO && especialidad.equalsIgnoreCase("Invertebrado")) {
+            return true;
+        }
+        return false;
     }
 }

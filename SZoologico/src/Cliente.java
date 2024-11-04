@@ -2,7 +2,6 @@ import java.time.LocalDate;
 public class Cliente extends Persona {
     //Asociacion
     private Boleto boleto;
-    private Guia guia;
     //Constructores:
     public Cliente(String nombre, LocalDate fechaNacimiento, String cedula) {
         super(nombre, fechaNacimiento, cedula);
@@ -13,8 +12,8 @@ public class Cliente extends Persona {
         return boleto;
     }
     //Metodos:
-    public void comprarBoleto(){
-        System.out.println(nombre+" realizo la compra del boleto numero: "+boleto.getNumero());
+    private void comprarBoleto(){
+        System.out.println(getNombre()+" realizo la compra del boleto numero: "+boleto.getNumero());
     }
     public void listaInformacion(){
         comprarBoleto();

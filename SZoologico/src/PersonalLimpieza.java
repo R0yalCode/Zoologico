@@ -10,8 +10,9 @@ public class PersonalLimpieza extends Empleado{
         this.jaulas=new ArrayList<>();
     }
     //Metodos:
-    public void limpiarJaula(Jaula... jaulas) {
-        for (Jaula jaula : jaulas) {
+    public void limpiarJaula(Jaula... jaulasNuevas) {
+        for (Jaula jaula : jaulasNuevas) {
+            jaulas.add(jaula);
             if (jaula.isEstaLimpio()) {
                 System.out.println("[ La jaula " + jaula.getNumeroJaula() + " ya está limpia ]");
             } else {

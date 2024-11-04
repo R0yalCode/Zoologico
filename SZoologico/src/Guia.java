@@ -13,7 +13,12 @@ public class Guia extends Empleado{
         this.clientes=new ArrayList<>();
     }
     //Metodos:
-    public String establecerRecorrido(){
+    public void agregarCliente(Cliente... nuevosClientes) {
+        for (Cliente cliente : nuevosClientes) {
+            this.clientes.add(cliente);
+        }
+    }
+    private String establecerRecorrido(){
         List <Zona> zonas = Arrays.asList(Zona.values());
         Collections.shuffle(zonas);
         StringBuilder recorrido = new StringBuilder();
@@ -22,11 +27,6 @@ public class Guia extends Empleado{
         }
         recorrido.setLength(recorrido.length() - 4); // Elimina el último " -> "
         return recorrido.toString();
-    }
-    public void agregarCliente(Cliente... nuevosClientes) {
-        for (Cliente cliente : nuevosClientes) {
-            this.clientes.add(cliente);
-        }
     }
     public void mostrarCliente() {
         String clientesNombres = clientes.stream().map(Cliente::getNombre)

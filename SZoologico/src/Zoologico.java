@@ -35,19 +35,17 @@ public class Zoologico {
         return instancia;
     }
     //Metodos:
-    public void agregarAnimal(Animal... animales) {
-        for (Animal animal : animales) {
-            if (seresVivos.size() < capacidad) {
-                seresVivos.add(animal);
-                System.out.println("! "+animal.getNombre()+" agregado al zoológico !");
-            } else {
-                System.out.println("< No se puede agregar ("+animal.getNombre()+"), capacidad máxima alcanzada >");
-            }
+    public void agregarAnimal(Animal animal) {
+        if (seresVivos.size() < capacidad) {
+            seresVivos.add(animal);
+            System.out.println("! " + animal.getNombre() + " agregado al zoológico !");
+        } else {
+            System.out.println("< No se puede agregar (" + animal.getNombre() + "), capacidad máxima alcanzada >");
         }
     }
     public void calcularAnimales(){
         int numeroAnimales=Animal.getContador();
-        System.out.println("Numero de animales en el zoologico: "+numeroAnimales);
+        System.out.println("Numero de animales: "+numeroAnimales);
     }
     public void calcularEmpleados(){
         int numeroEmpleados=Empleado.getContador();
