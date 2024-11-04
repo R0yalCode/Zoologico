@@ -32,6 +32,25 @@ Definir las entidades principales de un zoológico, sus relaciones y los método
 Descarga e instala Visual Studio Code desde su sitio web oficial. Para ir al sitio oficial ingresa [aqui](https://code.visualstudio.com/).
 **Java Extension Pack**: Instala esta extensión para facilitar el desarrollo en Java.
 
+# Cómo Ejecutar el Proyecto
+
+##### - Clona el repositorio: 
+
+    git clone https://github.com/R0yalCode/zoologico.git
+
+###### Espera a que termine el proceso
+Una vez que se complete la clonación, verás un mensaje indicando que el repositorio se ha clonado correctamente.
+
+##### - Navega al directorio del proyecto:
+    cd zoologico
+
+##### - Compila el proyecto:
+    javac *.class
+
+##### - Ejecuta la aplicación:
+    java Main
+  
+
 # Clases del Sistema
 A continuación, se presenta la lista de clases que forman parte del sistema, junto con una breve descripción de su función:
 
@@ -74,27 +93,6 @@ A continuación, se presenta la lista de clases que forman parte del sistema, ju
 `Zona.class` Representa las distintas áreas del zoológico, agrupando las jaulas y recintos en diferentes secciones temáticas o geográficas.
 
 `Zoologico.class` Clase principal que coordina todas las operaciones y entidades dentro del zoológico, actuando como un punto de acceso central para la gestión del sistema.
-  
-# Cómo Ejecutar el Proyecto
-
-##### - Clona el repositorio: 
-
-    git clone https://github.com/R0yalCode/zoologico.git
-
-###### Espera a que termine el proceso
-Una vez que se complete la clonación, verás un mensaje indicando que el repositorio se ha clonado correctamente.
-
-##### - Navega al directorio del proyecto:
-    cd zoologico
-
-##### - Compila el proyecto:
-    javac *.class
-
-##### - Ejecuta la aplicación:
-    java Main
-
-
-
 
 # Autores: 
 ## [Israel Rodriguez](https://github.com/IsraelSRodriguezT)
