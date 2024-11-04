@@ -33,23 +33,32 @@ Descarga e instala Visual Studio Code desde su sitio web oficial. Para ir al sit
 **Java Extension Pack**: Instala esta extensión para facilitar el desarrollo en Java.
 
 # Cómo Ejecutar el Proyecto
+Sigue estos pasos para clonar, compilar y ejecutar el proyecto del zoológico:
 
-##### - Clona el repositorio: 
+##### Clona el repositorio:
 
-    git clone https://github.com/R0yalCode/zoologico.git
+Abre tu terminal o línea de comandos.
+Utiliza el siguiente comando para clonar el repositorio en tu máquina local. Esto descargará todos los archivos del proyecto.
 
-###### Espera a que termine el proceso
-Una vez que se complete la clonación, verás un mensaje indicando que el repositorio se ha clonado correctamente.
+    git clone https://github.com/tu_usuario/zoologico.git
+-  Asegúrate de reemplazar `tu_usuario` con tu nombre de usuario de GitHub.
 
-##### - Navega al directorio del proyecto:
+##### Navega al directorio del proyecto:
+
+Cambia tu directorio actual al directorio del proyecto recién clonado. Esto es necesario para que puedas ejecutar los siguientes comandos en el contexto del proyecto.
+
     cd zoologico
 
-##### - Compila el proyecto:
+##### Compila el proyecto:
+
+Antes de ejecutar la aplicación, necesitas compilar los archivos .class de Java. Utiliza el siguiente comando, que compilará todos los archivos de clase en el directorio actual.
+
     javac *.class
 
-##### - Ejecuta la aplicación:
-    java Main
-  
+- Asegúrate de tener el JDK instalado y configurado correctamente en tu sistema. Si tienes problemas con la compilación, verifica que tu ruta de JDK esté correctamente añadida a las variables de entorno.
+
+
+
 
 # Clases del Sistema
 A continuación, se presenta la lista de clases que forman parte del sistema, junto con una breve descripción de su función:
