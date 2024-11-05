@@ -132,7 +132,7 @@ A continuación, se presenta la lista de clases que forman parte del sistema, ju
 `Zoologico.class` Clase principal que coordina todas las operaciones y entidades dentro del zoológico. Contiene información general del zoológico, como el nombre y capacidad, y métodos para agregar animales, calcular el número de empleados y mostrar información general del zoológico.
 
 
-# Usos
+# Uso
 #### Ejemplo Detallado de la Interacción
 
 1. **Registrar nuevos animales**:
