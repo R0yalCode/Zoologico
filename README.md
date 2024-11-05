@@ -1,65 +1,87 @@
-# Zoologico
+# Zoológico
 
 ![image](https://github.com/user-attachments/assets/61e6ddc5-c524-458b-a9c7-c7536f80d217)
 
 > Diagrama de clases-UML del zoologico
 
 
-# Sistema de Gestión de un Zoológico
-
+# Sistema de Gestión Integral de un Zoológico
 Este trabajo se basa principalmente en un sistema de zoológico representado mediante un diagrama de clases-UML en el cual se va a representar diferentes partes que tiene como estructura un zoológico, es decir los seres vivos, la administración del zoológico, la gestion de clientes y diversas clasificaciones de los animales.
 
-# Objetivo Principal
+# Objetivo Principal del Proyecto: Gestión Integral de un Zoológico
 
 Definir las entidades principales de un zoológico, sus relaciones y los métodos que permiten gestionar la información de los animales, los empleados, los clientes, las jaulas y otros elementos relevantes.
 
-# Requisitos
-#### Requisitos de Software:
-###### Sistema Operativo
-- **Compatible con**: Windows, macOS o Linux.
+# Cómo Ejecutar el Proyecto
+Para poder ejecutar este proyecto en tu máquina local, sigue estos pasos:
+##### 1. Preparación del Entorno
+Antes de ejecutar el proyecto, asegúrate de tener todo lo necesario instalado en tu máquina.
 
-###### JDK
-- **Versión**: JDK 8 o superior. Asegúrate de tenerlo instalado para compilar y ejecutar el proyecto. Puedes descargarlo desde [aqui](https://www.oracle.com/java/technologies/downloads/#java8).
+###### - Instalar JDK 8 o Superior
+Este proyecto está desarrollado en Java, por lo que necesitas tener el JDK 8 o superior instalado.
 
-###### IDE (Entorno de Desarrollo Integrado)
+- Versión requerida: JDK 8 o superior
+- Cómo instalarlo: Puedes descargarlo desde el sitio oficial de Oracle [aqui](https://www.oracle.com/java/technologies/downloads/#java8).
+
+Una vez instalado, asegúrate de que el JDK esté correctamente configurado en tu sistema. Puedes verificarlo abriendo una terminal o línea de comandos y ejecutando:
+
+      java -version
+
+Si ves algo similar a esto, significa que el JDK está correctamente instalado:
+
+    java version "1.8.0_281"
+    Java(TM) SE Runtime Environment (build 1.8.0_281-b09)
+    Java HotSpot(TM) 64-Bit Server VM (build 25.281-b09, mixed mode)
+
+###### - Instalar un IDE (Opcional)
+Es recomendable usar un IDE (Entorno de Desarrollo Integrado) para trabajar con el proyecto. Dos opciones populares son:
+
 - **IntelliJ IDEA**: Un potente IDE para Java. Puedes descargarlo desde [aqui](https://www.jetbrains.com/idea/download/?section=windows).
 - **Eclipse**: Otro popular IDE para desarrollo en Java. Descárgalo desde [aqui](https://www.eclipse.org/downloads/packages/installer).
 
-###### Compilador
-- **Java Compiler**: Asegúrate de que el compilador de Java esté configurado correctamente en tu entorno de desarrollo.
+##### 2. Clonar el Repositorio
+Ahora que tienes el entorno preparado, lo siguiente es clonar el repositorio del proyecto en tu máquina local.
 
-- **Visual Studio Code (opcional)**
-Descarga e instala Visual Studio Code desde su sitio web oficial. Para ir al sitio oficial ingresa [aqui](https://code.visualstudio.com/).
-
-**Java Extension Pack**: Instala esta extensión para facilitar el desarrollo en Java.
-
-# Cómo Ejecutar el Proyecto
-Sigue estos pasos para clonar, compilar y ejecutar el proyecto del zoológico:
-
-##### Clona el repositorio:
-
+######  Clonar el repositorio: 
 Abre tu terminal o línea de comandos.
 Utiliza el siguiente comando para clonar el repositorio en tu máquina local. Esto descargará todos los archivos del proyecto.
 
     git clone https://github.com/tu_usuario/zoologico.git
 -  Asegúrate de reemplazar `tu_usuario` con tu nombre de usuario de GitHub.
 
-##### Navega al directorio del proyecto:
-
+######  **Navega al directorio del proyecto:**
 Cambia tu directorio actual al directorio del proyecto recién clonado. Esto es necesario para que puedas ejecutar los siguientes comandos en el contexto del proyecto.
 
     cd zoologico
 
-##### Compila el proyecto:
+##### 3.  Compilar el Proyecto
+Antes de ejecutar el proyecto, debes compilar los archivos .java para generar los archivos .class necesarios para la ejecución.
+######   **Compilar el código**:
+Ejecuta el siguiente comando en la terminal para compilar todos los archivos .java en el directorio actual:
 
-Antes de ejecutar la aplicación, necesitas compilar los archivos .class de Java. Utiliza el siguiente comando, que compilará todos los archivos de clase en el directorio actual.
+    javac *.java
+Esto creará los archivos .class que el programa necesita para ejecutarse.
 
-    javac *.class
+##### 4. Ejecutar el Proyecto
+Con los archivos ya compilados, ahora puedes ejecutar el proyecto.
 
-- Asegúrate de tener el JDK instalado y configurado correctamente en tu sistema. Si tienes problemas con la compilación, verifica que tu ruta de JDK esté correctamente añadida a las variables de entorno.
+######  Ejecutar el proyecto:
+Usa el siguiente comando para correr el sistema:
 
+    java Zoologico
 
+######  Interacción con el sistema:
+El sistema debería iniciar y mostrar un menú interactivo en la consola donde podrás elegir entre varias opciones, como registrar un nuevo animal, comprar boletos, o consultar el historial médico de los animales. Por ejemplo:
 
+```java
+Bienvenido al Sistema de Gestión de Zoológico
+Selecciona una opción:
+1. Registrar un nuevo animal
+2. Comprar boletos
+3. Consultar historial médico de un animal
+4. Salir
+
+```
 
 # Clases del Sistema
 A continuación, se presenta la lista de clases que forman parte del sistema, junto con una breve descripción de su función:
