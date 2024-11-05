@@ -1,9 +1,9 @@
 import java.time.LocalDate;
 public class Boleto {
+    public static int contador;
     public LocalDate fechaVisita;
     public String numero;
     public static final float valor = 2.5f;
-    public static int contador;
     //Asociacion:
     private Cliente cliente;
     //Constructores:
