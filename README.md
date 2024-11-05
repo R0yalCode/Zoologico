@@ -62,45 +62,49 @@ Antes de ejecutar la aplicación, necesitas compilar los archivos .class de Java
 # Clases del Sistema
 A continuación, se presenta la lista de clases que forman parte del sistema, junto con una breve descripción de su función:
 
-`Animal.class` Representa a los animales que habitan en el zoológico, incluyendo atributos como especie, género, y características específicas del comportamiento y la dieta.
+`Animal.class` Representa a los animales que habitan en el zoológico. Incluyendo atributos como la edad, el peso, el tipo de cuerpo(vertebrado o invertebrado), la dieta, y el nombre científico. Además, ofrece métodos para indicar diagnósticos, sugerir alimentos, y mostrar el nombre científico del animal.
 
-`Boleto.class `Gestiona la información relacionada con los tickets de entrada al zoológico, incluyendo detalles como el precio, la fecha de compra y el tipo de entrada.
+`Boleto.class `Gestiona la información relacionada con los tickets de entrada al zoológico. Contiene detalles como el número de boleto, la fecha de visita y el valor del ticket, así como métodos para comprar boletos e imprimir información del boleto.
 
-`Cliente.class` Hereda de la clase Persona y representa a los visitantes del zoológico, manejando datos sobre su historial de visitas y boletos adquiridos.
+`Cliente.class` Hereda de la clase Persona y representa a los visitantes del zoológico. Permite gestionar la compra de boletos y la información de historial de visitas de los clientes.
 
-`Compra.class `Se encarga de la lógica de las transacciones relacionadas con la compra de boletos y otros servicios, registrando detalles de la compra.
+`Compra.class `Maneja las transacciones relacionadas con la compra de boletos. Registra detalles como el número de compra, el total y los boletos comprados.
 
-`Cuidador.class `Subclase de Empleado, responsable del cuidado diario de los animales, asegurando su bienestar a través de la alimentación y el mantenimiento de sus recintos
+`Cuidador.class `Es una subclase de Empleado responsable del cuidado diario de los animales, incluyendo tareas como alimentar a los animales y cuidar de sus jaulas.
 
-`Direccion.class` Maneja la información de direcciones asociadas a las personas y entidades dentro del sistema, permitiendo gestionar la ubicación de los empleados y clientes.
+`Direccion.class` Maneja la información de direcciones asociadas a personas o entidades dentro del sistema. Incluye atributos como calle principal, calle secundaria, y referencia, y un método para mostrar la ubicación.
 
-`Empleado.class` Clase base que representa a todos los trabajadores del zoológico. Se subdivide en diferentes tipos de empleados, como cuidadores y veterinarios.
+`Empleado.class` Clase base que representa a todos los trabajadores del zoológico, con atributos como contador, identificación y salario. Esta clase se subdivide en varios tipos de empleados, incluyendo cuidadores, veterinarios y personal de limpieza.
 
-`Estado.class` Define los estados o condiciones que pueden aplicarse a los animales o empleados, permitiendo gestionar su estatus dentro del sistema.
+`Estado.class` Enumeración que define los estados o condiciones en que pueden encontrarse los animales, como dormido, comiendo, herido, entre otros.
 
-`Guia.class` Subclase de Empleado, encargada de proporcionar información y orientación a los visitantes durante su recorrido por el zoológico.
+`Guia.class` Es una subclase de Empleado encargada de proporcionar información y orientación a los visitantes del zoológico, incluyendo establecer recorridos y agregar clientes a los tours.
 
-`Jaula.class `Representa los recintos físicos donde se alojan los animales, incluyendo atributos como tamaño, capacidad y un identificador único para cada jaula.
+`HistorialMedico.class` Registra los diagnósticos médicos y fechas relacionadas con el historial de salud de cada animal, permitiendo un registro detallado del historial médico.
+
+`Jaula.class `Representa los recintos físicos donde se alojan los animales, con atributos como capacidad, estado de limpieza, y el número de la jaula. También cuenta con métodos para agregar animales y mostrar el número de jaula.
 
 `Main.class` Clase principal del programa, que contiene el método main y gestiona la ejecución del sistema.
 
-`Persona.class` Clase abstracta que representa a las personas en el sistema, gestionando datos comunes como nombre, edad y fecha de nacimiento.
+`Persona.class` Clase abstracta que representa a todas las personas en el sistema, gestionando datos como nombre, edad y cédula.
 
-`PersonalAdministrativo.class` Subclase de Empleado que se encarga de las tareas administrativas y de gestión del zoológico.
+`PersonalAdministrativo.class` Es una subclase de Empleado que se encarga de tareas administrativas, como la gestión de recursos del zoológico.
 
-`PersonalLimpieza.class` Subclase de Empleado responsable de mantener las instalaciones del zoológico limpias y en buen estado.
+`PersonalLimpieza.class` Es una subclase de Empleado responsable de mantener las instalaciones del zoológico limpias y en buen estado.
 
-`SerVivo.class` Clase base que representa a todos los seres vivos, tanto animales como personas, definiendo atributos esenciales como nombre y fecha de nacimiento.
+`SerVivo.class` Clase base que representa a todos los seres vivos en el zoológico, tanto personas como animales. Define atributos esenciales como el nombre y la fecha de nacimiento y un método para calcular la edad.
 
-`TipoCuerpo.class` Enum que clasifica a los animales según su tipo de cuerpo, proporcionando categorías como vertebrados e invertebrados.
+`TipoCuerpo.class` Enumeración que clasifica a los animales según su tipo de cuerpo, ya sea vertebrado o invertebrado.
 
-`TipoDieta.class` Enum que clasifica a los animales según su dieta, permitiendo categorizar entre carnívoros, herbívoros y omnívoros.
+`TipoDieta.class` Enumeración que clasifica a los animales según su dieta, permitiendo categorizar entre carnívoros, herbívoros, omnívoros, entre otros.
 
-`Veterinario.class `Subclase de Empleado especializada en la atención médica de los animales, responsable de su salud y bienestar.
+`TipoAlimento.class` Enumeración que especifica los diferentes tipos de alimentos que se pueden proporcionar a los animales, como carne, pescado, hierba, y fruta.
 
-`Zona.class` Representa las distintas áreas del zoológico, agrupando las jaulas y recintos en diferentes secciones temáticas o geográficas.
+`Veterinario.class `Subclase de Empleado especializada en la atención médica de los animales. Es responsable de realizar diagnósticos, tratamientos y verificar la especialidad del veterinario.
 
-`Zoologico.class` Clase principal que coordina todas las operaciones y entidades dentro del zoológico, actuando como un punto de acceso central para la gestión del sistema.
+`Zona.class` Representa las distintas áreas del zoológico, como Este, Norte, Oeste y Sur, y agrupa las jaulas en diferentes secciones.
+
+`Zoologico.class` Clase principal que coordina todas las operaciones y entidades dentro del zoológico. Contiene información general del zoológico, como el nombre y capacidad, y métodos para agregar animales, calcular el número de empleados y mostrar información general del zoológico.
 
 # Autores: 
 ## [Israel Rodriguez](https://github.com/IsraelSRodriguezT)
