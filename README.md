@@ -131,6 +131,62 @@ A continuación, se presenta la lista de clases que forman parte del sistema, ju
 
 `Zoologico.class` Clase principal que coordina todas las operaciones y entidades dentro del zoológico. Contiene información general del zoológico, como el nombre y capacidad, y métodos para agregar animales, calcular el número de empleados y mostrar información general del zoológico.
 
+
+# Usos
+#### Ejemplo Detallado de la Interacción
+
+1. **Registrar nuevos animales**:
+   - El usuario podrá registrar nuevos animales en el zoológico mediante un comando o una opción en el menú interactivo del sistema.
+   - Cuando se ejecuta el comando `java Zoologico`, el programa podría mostrar un menú de opciones, como:
+   
+     ```
+     Bienvenido al Sistema de Gestión de Zoológico. Selecciona una opción:
+     1. Registrar un nuevo animal
+     2. Comprar boletos
+     3. Consultar historial médico de un animal
+     4. Salir
+     ```
+   - Si el usuario selecciona la opción "1" (Registrar un nuevo animal), el programa puede pedirle información detallada sobre el animal, como su nombre, especie, edad, dieta, etc. Luego, el sistema almacenará esos datos en una base de datos o en una estructura de datos dentro de la aplicación (por ejemplo, en una lista o archivo).
+   
+     Ejemplo de flujo:
+     ```
+     Ingrese el nombre del animal: Tigre
+     Ingrese la especie: Panthera tigris
+     Ingrese la edad del animal: 5
+     Ingrese la dieta (carnívoro, herbívoro, omnívoro): Carnívoro
+     Animal registrado correctamente: Tigre
+     ```
+
+2. **Comprar boletos para visitantes**:
+   - El sistema también permitirá a los usuarios (probablemente los empleados del zoológico) gestionar la compra de boletos para los visitantes.
+   - Similar a la opción de registrar animales, el programa puede permitir al usuario seleccionar "Comprar boletos". Luego, pedirá información como el número de boletos, tipo de visitante (adulto, niño, etc.) y el costo de la entrada.
+   
+     Ejemplo de flujo:
+     ```
+     Selecciona el tipo de boleto:
+     1. Adulto
+     2. Niño
+     Ingrese la cantidad de boletos a comprar: 2
+     Total a pagar: $20
+     Compra exitosa. Boletos generados.
+     ```
+
+3. **Consultar el historial médico de los animales**:
+   - El sistema también permitirá consultar el historial médico de los animales. Esto puede incluir información sobre sus diagnósticos, tratamientos previos y fechas importantes (como visitas al veterinario).
+   - El usuario seleccionará "Consultar historial médico" y podrá ingresar el nombre del animal o su ID para acceder a esta información.
+   
+     Ejemplo de flujo:
+     ```
+     Ingrese el nombre del animal o su ID: Tigre
+     Historial Médico de Tigre:
+     - Diagnóstico: Sin problemas de salud recientes.
+     - Fecha: 01/01/2024.
+     ```
+
+
+
+
+
 # Autores: 
 ## [Israel Rodriguez](https://github.com/IsraelSRodriguezT)
 ## [Carlos Granda](https://github.com/Carlosjosu)
