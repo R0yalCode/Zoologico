@@ -26,7 +26,7 @@ Definir las entidades principales de un zoológico, sus relaciones y los método
 - **Eclipse**: Otro popular IDE para desarrollo en Java. Descárgalo desde [aqui](https://www.eclipse.org/downloads/packages/installer).
 
 ###### Compilador
-- **Java Compiler**: Asegúrate de que el compilador de Java esté configurado correctamente en tu entorno de desarrollo.
+- **Java Compiler**: Asegúrate de que el compilador de Java esté configurado correctamente en tu erntorno de desarrollo.
 
 - **Visual Studio Code (opcional)**
 Descarga e instala Visual Studio Code desde su sitio web oficial. Para ir al sitio oficial ingresa [aqui](https://code.visualstudio.com/).
