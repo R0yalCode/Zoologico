@@ -94,7 +94,7 @@ A continuación, se presenta la lista de clases que forman parte del sistema, ju
 
 `SerVivo.class` Clase base que representa a todos los seres vivos, tanto animales como personas, definiendo atributos esenciales como nombre y fecha de nacimiento.
 
-`TipoCuerpo.class` Enum que clasifica a los animales según su tipo de cuerpo, proporcionando categorías como vertebrados e invertebrados.
+`TipoCuerpo.class` Enum que clasifica a los animales según su tipo de cuerpo, proporcionando categorías como vertebrados e investebrados.
 
 `TipoDieta.class` Enum que clasifica a los animales según su dieta, permitiendo categorizar entre carnívoros, herbívoros y omnívoros.
 
