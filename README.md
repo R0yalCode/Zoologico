@@ -16,7 +16,7 @@ Definir las entidades principales de un zoológico, sus relaciones y los método
 # Requisitos
 #### Requisitos de Software:
 ###### Sistema Operativo
-- **Compatible con**: Windows, macOS o Linux.
+- **Compatible con**: Windows, macOs o Linux.
 
 ###### JDK
 - **Versión**: JDK 8 o superior. Asegúrate de tenerlo instalado para compilar y ejecutar el proyecto. Puedes descargarlo desde [aqui](https://www.oracle.com/java/technologies/downloads/#java8).
