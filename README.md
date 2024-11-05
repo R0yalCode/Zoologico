@@ -12,7 +12,7 @@ Este trabajo se basa principalmente en un sistema de zoológico representado med
 
 Definir las entidades principales de un zoológico, sus relaciones y los métodos que permiten gestionar la información de los animales, los empleados, los clientes, las jaulas y otros elementos relevantes.
 
-# Cómo Ejecutar el Proyecto
+# Guía Paso a Paso para Ejecutar el Proyecto en tu Entorno Local
 Para poder ejecutar este proyecto en tu máquina local, sigue estos pasos:
 ##### 1. Preparación del Entorno
 Antes de ejecutar el proyecto, asegúrate de tener todo lo necesario instalado en tu máquina.
@@ -83,7 +83,8 @@ Selecciona una opción:
 
 ```
 
-# Clases del Sistema
+# Descripción de las Clases Principales del Sistema Zoológico
+
 A continuación, se presenta la lista de clases que forman parte del sistema, junto con una breve descripción de su función:
 
 `Animal.class` Representa a los animales que habitan en el zoológico. Incluye atributos como la edad, el peso, el tipo de cuerpo (vertebrado o invertebrado), la dieta, y el nombre científico. Además, ofrece métodos para indicar diagnósticos, sugerir alimentos, y mostrar el nombre científico del animal.
