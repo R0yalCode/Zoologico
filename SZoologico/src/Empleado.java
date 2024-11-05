@@ -1,9 +1,9 @@
 import java.time.LocalDate;
 abstract class Empleado extends Persona {
     //Atributos:
+    protected static int contador;
     protected String identificacion;
     protected float salario;
-    protected static int contador;
     //Enumerador:
     protected Zona zona;
     //Constructor:
@@ -40,6 +40,6 @@ abstract class Empleado extends Persona {
     }
     //Metodos:
     public void mostrarIdentificacion(){
-        System.out.println(" [ Nuevo empleado: "+getNombre()+" | identificacion: "+getIdentificacion()+" ]");
+        System.out.println(" [ Empleado: "+getNombre()+" | identificacion: "+getIdentificacion()+" ]");
     }
 }

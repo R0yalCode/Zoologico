@@ -11,9 +11,10 @@ public class Cuidador extends Empleado {
         this.animales=new ArrayList<>();
     }
     //Metodos:
-    public void cuidarAnimal(Animal... animales) {
-        for (Animal animal : animales) {
+    public void cuidarAnimal(Animal... animalesCuidar) {
+        for (Animal animal : animalesCuidar) {
             System.out.println("[ "+getNombre() + " está cuidando al " + animal.getNombre()+" ]");
+            animales.add(animal);
             Estado estadoActual = animal.getEstado();
             if (estadoActual == Estado.HAMBRIENTO) {
                 System.out.println("-> El "+animal.getNombre()+" tiene hambre");
@@ -25,8 +26,9 @@ public class Cuidador extends Empleado {
             }
         }
     }
-    public void darComida(Animal animal){
-        animal.setEstado(Estado.COMIENDO); // Cambiar el estado a NORMAL después del tratamiento
-        System.out.println("--> El " + animal.getNombre() + " ya se encuentra comiendo su alimento");
+    private void darComida(Animal animal){
+        System.out.println("--> "+getNombre()+" va a alimentarlo con ("+animal.sugerirAlimento()+") ");
+        animal.setEstado(Estado.COMIENDO);
+        System.out.println("---> El " + animal.getNombre() + " ya se encuentra comiendo su alimento");
     }
 }

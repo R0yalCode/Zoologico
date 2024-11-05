@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 public class Compra {
     //Atributos:
-    protected static int contador;
+    private static int contador;
     //Asociacion:
     private List <Boleto> boletos;
     //Constructores:
@@ -20,7 +20,7 @@ public class Compra {
             boletos.add(cliente.getBoleto());
         }
     }
-    public float calcularTotal(){
+    private float calcularTotal(){
         float total=0;
         for(Boleto boleto:boletos){
             total+=boleto.getPrecio(); //Sumar cada boleto por edad
