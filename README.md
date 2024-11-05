@@ -39,6 +39,7 @@ Sigue estos pasos para clonar, compilar y ejecutar el proyecto del zoológico:
 
 Abre tu terminal o línea de comandos.
 Utiliza el siguiente comando para clonar el repositorio en tu máquina local. Estos descargará todos los archivos del proyecto.
+
     git clone https://github.com/tu_usuario/zoologico.git
 -  Asegúrate de reemplazar `tu_usuario` con tu nombre de usuario de GitHub.
 
