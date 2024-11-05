@@ -4,6 +4,7 @@
 
 > Diagrama de clases-UML del zoologico
 
+# [Carpeta java](https://github.com/R0yalCode/Zoologico/tree/a4f447de67ba92d283a6750ab5a85691fa7cded2/SZoologico/src)
 
 # Sistema de Gestión Integral de un Zoológico
 Este trabajo se basa principalmente en un sistema de zoológico representado mediante un diagrama de clases-UML en el cual se va a representar diferentes partes que tiene como estructura un zoológico, es decir los seres vivos, la administración del zoológico, la gestion de clientes y diversas clasificaciones de los animales.
