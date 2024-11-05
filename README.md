@@ -1,6 +1,6 @@
 # Zoologico
 
-![image](https://github.com/user-attachments/assets/5c73fe36-bcfd-4256-9057-8179e9d95062)
+![image](https://github.com/user-attachments/assets/46b1261e-fa0b-44bc-a197-28650403cfa7)
 
 > Diagrama de clases-UML del zoologico
 
