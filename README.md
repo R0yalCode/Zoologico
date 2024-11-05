@@ -94,6 +94,8 @@ A continuación, se presenta la lista de clases que forman parte del sistema, ju
 
 `SerVivo.class` Clase base que representa a todos los seres vivos en el zoológico, tanto personas como animales. Define atributos esenciales como el nombre y la fecha de nacimiento y un método para calcular la edad.
 
+`TipoEstado.class` Enumeración que describe los diferentes estados en los que puede encontrarse un animal, incluyendo estados como comiendo, dormido, enfermo, estresado, hambriento, herido y normal.
+
 `TipoCuerpo.class` Enumeración que clasifica a los animales según su tipo de cuerpo, ya sea vertebrado o invertebrado.
 
 `TipoDieta.class` Enumeración que clasifica a los animales según su dieta, permitiendo categorizar entre carnívoros, herbívoros, omnívoros, entre otros.
