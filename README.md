@@ -70,7 +70,7 @@ A continuación, se presenta la lista de clases que forman parte del sistema, ju
 
 `Compra.class `Se encarga de la lógica de las transacciones relacionadas con la compra de boletos y otros servicios, registrando detalles de la compra.
 
-`Cuidador.class `Subclase de Empleado, responsable del cuidado diario de los animales, asegurando su bienestar a través de la alimentación y el mantenimiento de sus recintos.
+`Cuidador.class `Subclase de Empleado, responsable del cuidado diario de los animales, asegurando su bienestar a través de la alimentación y el mantenimiento de sus recintos
 
 `Direccion.class` Maneja la información de direcciones asociadas a las personas y entidades dentro del sistema, permitiendo gestionar la ubicación de los empleados y clientes.
 
