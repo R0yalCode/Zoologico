@@ -30,6 +30,7 @@ Definir las entidades principales de un zoológico, sus relaciones y los método
 
 - **Visual Studio Code (opcional)**
 Descarga e instala Visual Studio Code desde su sitio web oficial. Para ir al sitio oficial ingresa [aqui](https://code.visualstudio.com/).
+
 **Java Extension Pack**: Instala esta extensión para facilitar el desarrollo en Java.
 
 # Cómo Ejecutar el Proyecto
