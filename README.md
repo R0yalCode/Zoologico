@@ -86,7 +86,7 @@ A continuación, se presenta la lista de clases que forman parte del sistema, ju
 
 `Persona.class` Clase abstracta que representa a las personas en el sistema, gestionando datos comunes como nombre, edad y fecha de nacimiento.
 
-`PersonalAdministrativo.class` Subclase de Empleado que se encarga de las tareas de administrativas y de gestión del zoológico.
+`PersonalAdministrativo.class` Subclase de Empleado que se encarga de las tareas administrativas y de gestión del zoológico.
 
 `PersonalLimpieza.class` Subclase de Empleado responsable de mantener las instalaciones del zoológico limpias y en buen estado.
 
