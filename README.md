@@ -65,13 +65,13 @@ A continuación, se presenta la lista de clases que forman parte del sistema, ju
 
 `Animal.class` Representa a los animales que habitan en el zoológico, incluyendo atributos como especie, género, y características específicas del comportamiento y la dieta.
 
-`Boleto.class `Gestiona la información relacionada con los tickets de entrada al zoológico, incluyendo detalles como el precio, la fecha de compra y el tipo de entrada.
+`Boleto.class` Gestiona la información relacionada con los tickets de entrada al zoológico, incluyendo detalles como el precio, la fecha de compra y el tipo de entrada.
 
 `Cliente.class` Hereda de la clase Persona y representa a los visitantes del zoológico, manejando datos sobre su historial de visitas y boletos adquiridos.
 
 `Compra.class `Se encarga de la lógica de las transacciones relacionadas con la compra de boletos y otros servicios, registrando detalles de la compra.
 
-`Cuidador.class `Subclase de Empleado, responsable del cuidado diario de los animales, asegurando su bienestar a través de la alimentación y el mantenimiento de sus recintos.
+`Cuidador.class` Subclase de Empleado, responsable del cuidado diario de los animales, asegurando su bienestar a través de la alimentación y el mantenimiento de sus recintos.
 
 `Direccion.class` Maneja la información de direcciones asociadas a las personas y entidades dentro del sistema, permitiendo gestionar la ubicación de los empleados y clientes.
 
@@ -97,7 +97,7 @@ A continuación, se presenta la lista de clases que forman parte del sistema, ju
 
 `TipoDieta.class` Enum que clasifica a los animales según su dieta, permitiendo categorizar entre carnívoros, herbívoros y omnívoros.
 
-`Veterinario.class `Subclase de Empleado especializada en la atención médica de los animales, responsable de su salud y bienestar.
+`Veterinario.class` Subclase de Empleado especializada en la atención médica de los animales, responsable de su salud y bienestar.
 
 `Zona.class` Representa las distintas áreas del zoológico, agrupando las jaulas y recintos en diferentes secciones temáticas o geográficas.
 
